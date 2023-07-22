@@ -5,7 +5,7 @@ The catalog employed can be found in the zip file 'custom_catalog.csv.zip' and i
 The main files for creating a dataset are:
 - velset_builder.ipynb
 - dset_builder.ipynb
-Basically, velset_builder.ipynb takes as input a seismic catalog (in our case 'custom_catalog.csv') by setting the appropriate flag 'catalog_type' to either 'custom' or 'giuseppe', loads it and finds all the GPS stations approapriate for each mainshock.
+Basically, velset_builder.ipynb takes as input a seismic catalog (in our case 'custom_catalog.csv') by setting the appropriate flag 'catalog_type' to 'custom', loads it and finds all the GPS stations approapriate for each mainshock.
 
 A catalog should be formatted as follows (at the end of any preprocessing):
 - Columns: 'date', 'seq_id', 'lat', 'lon', 'mag', 'type'
