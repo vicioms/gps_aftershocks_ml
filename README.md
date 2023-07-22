@@ -1,5 +1,5 @@
 ### Catalog
-The catalog employed can be found in the zip file 'custom_catalog.csv.zip' and it is divided into 'sequences' (seq_id). This 'custom_catalog' has been obtained from the JMA one [https://www.data.jma.go.jp/svd/eqev/data/bulletin](here).
+The catalog employed can be found in the zip file 'custom_catalog.csv.zip' and it is divided into 'sequences' (seq_id). This 'custom_catalog' has been obtained from the JMA one [https://www.data.jma.go.jp/svd/eqev/data/bulletin](here) by separating the earthquakes into large mainshocks (of magnitude >= 6) and aftershocks.
 
 ### Dataset
 The main files for creating a dataset are:
