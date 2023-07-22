@@ -14,7 +14,7 @@ In our version of the code we preprocess two different catalog files. In a futur
 
 After running the whole notebook, a file is created in a subfolder 'velset'
 
-This file is used as an input for the dset_builder.ipynb that generates a dataset with all the appropriate useful files.
+This file is used as an input for the dset_builder.ipynb that generates a dataset with all the ground deformation maps and the label for aftershocks forecasting.
 The dataset is a Python dictionary containing input and labels as well as any other useful data (such as sequence IDs, day of the MS...).
 
 
