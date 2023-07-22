@@ -16,3 +16,23 @@ After running the whole notebook, a file is created in a subfolder 'velset'
 
 This file is used as an input for the dset_builder.ipynb that generates a dataset with all the appropriate useful files.
 The dataset is a python dictionary containing input and labels as well as any other useful data (such as sequence IDs, day of the MS...).
+
+
+### Neural Network Model
+
+The CNN employed was made of
+
+Column (1): 5 convolutional layers of 10 channels, kernel size 3, stride 1, padding 'same', padding mode 'replicate'. Between each layer ReLU activation.
+Column (2): identifcal to (1)
+Combined: 5 convolutional layers of [10, 10, 5, 5, 1] channels, [3,3,3,3,1] kernel size, stride 1, padding 'same', padding mode 'replicate'. Between each layer ReLU activation part from last layer, where a Sigmoid is present.
+
+
+c1_mod_channels: [1, 10, 10, 10, 10, 10]
+c1_mod_kernels: [3, 3, 3, 3, 3]
+c2_mod_channels: [2, 10, 10, 10, 10, 10]
+c2_mod_kernels: [3, 3, 3, 3, 3]
+c_mod_channels: [20, 10, 10, 5, 5, 1]
+c_mod_kernels: [3, 3, 3, 3, 1]
+
+
+
