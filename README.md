@@ -26,6 +26,9 @@ Column (1): 5 convolutional layers of 10 channels, kernel size 3, stride 1, padd
 Column (2): identical to (1)
 Combined: 5 convolutional layers of [10, 10, 5, 5, 1] channels, [3,3,3,3,1] kernel size, stride 1, padding 'same', padding mode 'replicate'. Between each layer ReLU activation part from the last layer, where a Sigmoid is present.
 
+### Monument Table
+We also provide the monument table for the GPS stations employed.
+
 
 
 
